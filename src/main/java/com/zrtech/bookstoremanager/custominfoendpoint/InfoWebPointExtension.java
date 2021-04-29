@@ -25,7 +25,7 @@ public class InfoWebPointExtension {
         Map <String, Object> customInfo = new HashMap<>(info);
         Map <String, Object> app = (Map <String, Object> ) customInfo.get("app");
         app.put("customApp", "customInfo");
-        customInfo.put("customInfo", "handOn");
+        customInfo.put("customInfo", "handOn fora do app");
         System.out.println("TESTE:  " + new Date());
 
         return new WebEndpointResponse<>(customInfo, status);
