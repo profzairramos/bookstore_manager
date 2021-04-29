@@ -84,7 +84,6 @@
 				</executions>
 				<configuration>
 					<dotGitDirectory>${project.basedir}/../.git</dotGitDirectory>
-					<!-- more config here as you see fit -->
 				</configuration>
 			</plugin>
 		</plugins>
