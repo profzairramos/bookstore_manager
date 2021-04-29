@@ -9,3 +9,5 @@ cache:
 notifications:
   email:
     - prof.zair.ramos@gmail.com
+before_install:
+  - chmod +x mvnw
