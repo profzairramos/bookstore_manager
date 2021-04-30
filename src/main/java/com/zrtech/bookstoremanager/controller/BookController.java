@@ -13,11 +13,11 @@ public class BookController {
 
     @ApiOperation(value = "Método de Demonstração de Recurso de API - Hello World")
     @ApiResponses(value = {
-            @ApiResponse( code = 200, message = "Método retornou com sucesso!!")
+            @ApiResponse(code = 200, message = "Método retornou com sucesso!!")
     })
     @GetMapping
-    public String hello(){
+    public String hello() {
         return "Hello World  -  BookStore Manager - Agora com PR atualizado!!!!";
-
+        System.out.println("Dentro do Hello!!!");
     }
 }
