@@ -17,6 +17,7 @@ public class BookController {
     })
     @GetMapping
     public String hello(){
-        return "Hello World  -  BookStore Manager - Agora com PR!!!!";
+        return "Hello World  -  BookStore Manager ";
     }
 }
+//- Agora com PR!!!!
