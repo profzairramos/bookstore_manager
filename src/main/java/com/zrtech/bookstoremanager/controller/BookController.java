@@ -17,7 +17,7 @@ public class BookController {
     })
     @GetMapping
     public String hello() {
-        return "Hello World  -  BookStore Manager - Agora com PR atualizado!!!";
         System.out.println("Dentro do Hello!!");
+        return "Hello World  -  BookStore Manager - Agora com PR atualizado!!!";
     }
 }
