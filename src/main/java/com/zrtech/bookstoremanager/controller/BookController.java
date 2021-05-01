@@ -18,7 +18,7 @@ public class BookController {
             @ApiResponse(code = 200, message = "Método retornou com sucesso!!")
     })
     @GetMapping
-    public String hello() {
-        return "Hello World  -  BookStore Manager !";
+    public String hello(){
+        return "Hello World  -  BookStore Manager - Agora com PR!!!";
     }
 }
