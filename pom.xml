@@ -14,8 +14,7 @@
 	<description>Projeto BookStore Manager</description>
 	<properties>
 		<java.version>1.8</java.version>
-	</properties>
-	<properties>
+
 		<sonar.projectKey>profzairramos_bookstore_manager</sonar.projectKey>
 		<sonar.organization>profzairramos</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
