@@ -42,4 +42,6 @@ public class User {
     @OneToMany(mappedBy = "user" , cascade = {CascadeType.MERGE})
     private List<Book> books;
 
+    @Embedded
+    private Audit audit = new Audit();
 }
