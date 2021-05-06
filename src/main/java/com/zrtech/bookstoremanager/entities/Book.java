@@ -32,5 +32,4 @@ public class Book {
 
     @Embedded
     private Audit audit = new Audit();
-
 }

@@ -26,3 +26,10 @@ public class ApiBookStoreError {
 
     private List<String> errors;
 }
+
+
+
+
+
+
+

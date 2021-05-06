@@ -22,6 +22,9 @@ public class Publisher {
 
     @OneToMany(mappedBy = "publisher" , cascade = {CascadeType.MERGE})
     private List<Book> books;
+
+    @Embedded
+    private Audit audit = new Audit();
 }
 
 
